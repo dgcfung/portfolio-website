@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Rubik;
+}
+
+.portfolio-header{
+  text-align:center;
+  font-family: Rubik;
+  font-size: 6vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 7.5px;
+  text-align: center;
+  color: var(--white);
+}
+
+/* hamburger menu */
+.container { 
+  position: relative; 
+  display: flex; 
+} 
+
+.hamburger-button { 
+  padding: 0; 
+  width: 40px; 
+  border: 0; 
+  color: #fff; 
+  background-color: #333; 
+  cursor: pointer; 
+  outline: 0; 
+  font-size: 40px; 
+}
+
+.dropdown { 
+  z-index: 100; 
+  float: left; 
+  position: absolute; 
+  font-family: Rubik;
+  width:  50vw;
+  height: 50vw;
+  background-color: black;
+  color:white;
+  top: 100%; 
+  left: 0; 
+  width: 400px; 
+  z-index: 2; 
+  border: 1px solid rgba(0, 0, 0, 0.04); 
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14); } 
+
+  img{
+    align-self: center;
+  }
+  
+  ul { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  } 
+    
+    li { 
+      padding: 8px 12px; 
+    } 
+    li:hover { 
+      background-color: rgba(0, 0, 0, 0.14); cursor: pointer; 
+    }
+
+  /* end of hamburger menu */
+
+  /* About Page */
+  .About{
+    display: block;
+    width: 90vw;
+    height: 60vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  /* .profile-pic-div{
+    align-content: center;
+    align-items: center;
+    display: flex;
+  } */
+
+  .profile-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    /* padding-left: 10vw;
+    padding-right: 5vw;
+    padding-top: 5vw; */
+    border: 2vw;
+    border-color: white;
+    border-radius: 50%;
+
+  }
+
+  .brand-statement{
+    display:  block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vw;
+    width: 50vw;
+    text-align: left;
+    padding-left: 10vw;
+    padding-top: 10vw;
+  }
+  
+  a{
+    color:white;
+  }
+
+  /* Contact Section */
+  .contact-me{
+    width: 90vw;
+    height: 40vw;
+  }
+
+  .contact-img{
+    padding: 5vw 5vw 5vw 5vw;
+  }
+
+  /* Skills section */
+  .row-1{
+    display: block;
+  }
+
+  .row-2{
+    display:block;
+  }
+
+  .row-3{
+    display: block;
+  }
+
+  /* Projects */
+  .project-div{
+    display:block;
+    padding: 10vw 10vw 10vw 10vw;
+
+  }
