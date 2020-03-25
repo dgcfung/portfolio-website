@@ -7,7 +7,7 @@ import BloggerProject from '../images/BloggerProject.jpg'
 function Project(){
     return(
         <div className="project-page">
-        <h1>Projects</h1>
+        <h1 className ="projects-h1">Projects</h1>
         <div className= "project-div">
         <img className="projects" style={{height: "50vh", width: "50vw" }}src= {CurrencyExchange}/> 
         <h3>Currency Exchange Rate</h3>

@@ -65,7 +65,7 @@ class Header extends React.Component {
 
                 </div>
                 <h1 className="portfolio-header">Welcome to @dgcfung's site</h1>
-                <h3>Software Developer. Scholar. Marketer. International Mindset.</h3>
+                <h3 className="headline">Software Developer. Scholar. Marketer. International Mindset.</h3>
             </div>
         );
 

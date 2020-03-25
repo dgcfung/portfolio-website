@@ -13,22 +13,22 @@ import NodeLogo from '../images/NodeLogo.png'
 function Skills(){
     return(
         <div className= "skills">
-        <h1>Skills</h1>
+        <h1 className = "skills-h1">Skills</h1>
         <div className= "row-1">
-        <img className="contact-img" style={{height: "15vh", width: "10vw" }}src={HTMLLogo2}/>
-        <img className="contact-img" style={{height: "15vh", width: "10vw" }}src={CSSLogo}/>
-        <img className="contact-img" style={{height: "15vh", width: "10vw" }}src={JSLogo}/>
-        <img className="contact-img" style={{height: "15vh", width: "10vw" }}src={ReactIcon}/>
+        <img className="contact-img" style={{height: "15vw", width: "10vw" }}src={HTMLLogo2}/>
+        <img className="contact-img" style={{height: "15vw", width: "10vw" }}src={CSSLogo}/>
+        <img className="contact-img" style={{height: "15vw", width: "10vw" }}src={JSLogo}/>
+        <img className="contact-img" style={{height: "15vw", width: "10vw" }}src={ReactIcon}/>
         </div>
         <div className="row-2">
-        <img className="contact-img" style={{height: "15vh", width: "10vw" }}src={PostgreSQLLogo}/>
-        <img className="contact-img" style={{height: "15vh", width: "10vw" }}src={SequelizeLogo}/>
-        <img className="contact-img" style={{height: "15vh", width: "10vw" }}src={RailsLogo}/>
-        <img className="contact-img" style={{height: "15vh", width: "10vw" }}src={RubyLogo}/>
+        <img className="contact-img" style={{height: "15vw", width: "10vw" }}src={PostgreSQLLogo}/>
+        <img className="contact-img" style={{height: "15vw", width: "10vw" }}src={SequelizeLogo}/>
+        <img className="contact-img" style={{height: "15vw", width: "10vw" }}src={RailsLogo}/>
+        <img className="contact-img" style={{height: "15vw", width: "10vw" }}src={RubyLogo}/>
         </div>
         <div className="row-3">
-        <img className="contact-img" style={{height: "15vh", width: "10vw" }}src={ExpressLogo}/>
-        <img className="contact-img" style={{height: "15vh", width: "10vw" }}src={NodeLogo}/>
+        <img className="contact-img" style={{height: "15vw", width: "10vw" }}src={ExpressLogo}/>
+        <img className="contact-img" style={{height: "15vw", width: "10vw" }}src={NodeLogo}/>
         </div>
 
         </div>

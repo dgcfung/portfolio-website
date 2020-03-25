@@ -73,10 +73,10 @@
   /* About Page */
   .About{
     display: block;
-    width: 90vw;
-    height: 60vw;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
+    /* width: 90vw; */
+    /* height: 60vw; */
+    /* padding-top: 5vw; */
+    /* padding-bottom: 5vw; */
   }
 
   /* .profile-pic-div{
@@ -106,12 +106,17 @@
     height: 30vw;
     width: 50vw;
     text-align: left;
+    font-size: 2vw;
     padding-left: 10vw;
     padding-top: 10vw;
   }
   
   a{
     color:white;
+  }
+
+  .resume{
+    font-size: 4vw;
   }
 
   /* Contact Section */
@@ -141,5 +146,100 @@
   .project-div{
     display:block;
     padding: 10vw 10vw 10vw 10vw;
+
+  }
+
+/* mobile tablet compatible. */
+@media (max-width:1024px){
+  .headline{
+    font-size: 4vw;
+  }
+  .about-me{
+    font-size: 5vw;
+  }
+
+  .About{
+    display:block;
+    padding-bottom: 15vw;
+  }
+
+  .brand-statement{
+    display:  block;
+    height: 40vw; 
+    font-size: 3.5vw;
+    text-align: left;
+    padding-bottom: 15vw;
+  }
+  .skills{
+    padding-top: 15vw;
+  }
+
+  a{
+    font-size:5vw;
+  }
+  .skills-h1{
+    font-size:5vw;
+  }
+  .projects-h1{
+    font-size:5vw;
+  }
+  .contact-h1{
+    font-size:5vw;
+  }
+}
+
+  @media (max-width:768px){
+    .About{
+      display:block;
+      padding-bottom: 10vw;
+    }
+
+    .brand-statement{
+      display:  block;
+      height: 40vw; 
+      font-size: 3.5vw;
+      text-align: left;
+      padding-bottom: 15vw;
+      font-weight: 200;
+    }
+
+    .skills{
+      padding-top: 10vw;
+    }
+
+  }
+
+  @media (max-width:375px){
+    .portfolio-header{
+      font-size: 5vw;
+    }
+    .headline{
+      font-size: 3vw;
+    }
+    .about-me{
+      font-size: 6vw;
+    }
+    .brand-statement{
+      display:  block;
+      height: 40vw; 
+      font-size: 3.5vw;
+      text-align: left;
+      padding-bottom: 15vw;
+      font-weight: 200;
+    }
+
+    .skills{
+      padding-top: 15vw;
+      display:  block;
+    }
+
+    .contact-img{
+      /* display: block; */
+      height:8vw;
+      width: 5vw;
+    }
+    .contact-me{
+      height: 60vw;
+    }
 
   }
