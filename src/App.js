@@ -20,7 +20,7 @@ class App extends React.Component {
         <Route exact path='/' component={Main}/>
         <Route exact path='/about-me' component={About}/> 
         <Route exact path='/skills' component={Skills}/>
-        <Route exact path="/my-resume" component={Resume}/>
+        {/* <Route exact path="/my-resume" component={Resume}/> */}
         <Route exact path='/portfolio' component={Project}/>
         <Route exact path='/contact-me' component={Contact}/>
       </React.Fragment>

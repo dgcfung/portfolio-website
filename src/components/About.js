@@ -1,16 +1,20 @@
 import React from 'react'
 import DonaldProfilePic2 from '../images/DonaldProfilePic2.jpg'
 
-function About(){
+function About() {
 
-    return(
-        <div className= "About">
-        <h1 className= "about-me" >About Me</h1>
-        <br></br>
-        <img  className= "profile-pic" style={{height: "35vw", width: "23vw" }} src={DonaldProfilePic2}/>
-        <br></br>
-        <a className= "resume" href= "https://docdro.id/aR6qmQu">Click Here for My Resume</a>
-        <h3 className= "brand-statement">I am a highly motivated software developer with a passion to connect users with technology with a background in marketing, sales, and academia. My past experience as a researcher and regional account manager have strengthened my skills working in a leadership role and working in a collaborative environment. These experiences have allowed me to combine my passion for creative products with my love for coding, programming, and learning.</h3>
+    return (
+        <div className="About">
+            <h1 className="section-header" >About Me</h1>
+            <div classname="about-content">
+            {/* <br></br>
+        <img  className= "profile-pic" style={{height: "20vw", width: "20vw" }} src={DonaldProfilePic2}/>
+        <br></br> */}
+            {/* <a className= "resume" href= "https://www.docdroid.net/Rc9QKLN/donald-fung-pdf">Click Here for My Resume</a> */}
+            <p className="brand-statement">I am a highly motivated software developer with a passion to connect users with technology with a background in marketing, sales, and academia. My past experience as a researcher and regional account manager have strengthened my skills working in a leadership role and working in a collaborative environment. These experiences have allowed me to combine my passion for creative products with my love for coding, programming, and learning.</p>
+            <br></br>
+            <a className= "resume" href= "https://www.docdroid.net/Rc9QKLN/donald-fung-pdf">Please Click Here for My Full Resume</a>
+            </div>
         </div>
     )
 }

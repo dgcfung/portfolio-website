@@ -5,17 +5,28 @@
   font-family: Rubik;
 }
 
+.Header{
+  margin: 2vw 0vw 2vw 0vw;
+  background-image: url("https://blog-media-motionelements.s3-us-west-2.amazonaws.com/uploads/2018/04/11454306_MotionElements_silhouettes-in-an-office_converted_72994-480x270-9s-q2.gif");
+  max-height: 100%;
+  border: 5px solid white;
+}
+
 .portfolio-header{
   text-align:center;
-  font-family: Rubik;
-  font-size: 6vw;
+  /* font-family: Rubik; */
+  font-size: 4.5vw;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: 7.5px;
+  letter-spacing: 0.5vw;
   text-align: center;
   color: var(--white);
+}
+
+.headline{
+  font-size: 1.5vw;
 }
 
 /* hamburger menu */
@@ -27,7 +38,7 @@
 .hamburger-button { 
   padding: 0; 
   width: 40px; 
-  border: 0; 
+  margin: 2vw 2vw 2vw 2vw; 
   color: #fff; 
   background-color: #333; 
   cursor: pointer; 
@@ -36,20 +47,27 @@
 }
 
 .dropdown { 
-  z-index: 100; 
+  z-index:100; 
   float: left; 
   position: absolute; 
-  font-family: Rubik;
-  width:  50vw;
+  width:  30vw;
   height: 50vw;
   background-color: black;
-  color:white;
+  color: black;
   top: 100%; 
   left: 0; 
-  width: 400px; 
-  z-index: 2; 
+  text-align: left;
+  font-size: 1.5vw;
+  /* z-index: 2;  */
+  /* margin: 3vw 3vw 3vw 3vw; */
   border: 1px solid rgba(0, 0, 0, 0.04); 
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14); } 
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+ } 
+
+ .dropdown-profile-pic{
+  border-radius: 50%;
+  padding: 2vw 2vw 2vw 2vw;
+ }
 
   img{
     align-self: center;
@@ -57,7 +75,7 @@
   
   ul { 
     list-style: none; 
-    padding: 0; 
+    padding: 2vw 2vw 2vw 2vw; 
     margin: 0; 
   } 
     
@@ -65,18 +83,36 @@
       padding: 8px 12px; 
     } 
     li:hover { 
-      background-color: rgba(0, 0, 0, 0.14); cursor: pointer; 
+      /* background-color: rgba(0, 0, 0, 0.14); cursor: pointer;  */
+      color: black;
+      background-color: white;
     }
 
   /* end of hamburger menu */
 
+  /* section formatting */
+  .section-header{
+    /* text-align: center; */
+    font-size: 5vw;
+  }
+
   /* About Page */
   .About{
-    display: block;
+    /* display: block; */
+    /* column-count: 2;
+    column-gap: 10vw; */
+    /* width: 50vw; */
+    margin: 10vw 5vw 10vw 5vw;
+
     /* width: 90vw; */
     /* height: 60vw; */
     /* padding-top: 5vw; */
     /* padding-bottom: 5vw; */
+  }
+
+  .about-content{
+    column-count: 2;
+    margin: 10vw 5vw 10vw 5vw;
   }
 
   /* .profile-pic-div{
@@ -87,9 +123,11 @@
 
   .profile-pic{
     display: block;
+    min-width: 10vw;
     margin-left: auto;
     margin-right: auto;
     align-content: center;
+
     /* padding-left: 10vw;
     padding-right: 5vw;
     padding-top: 5vw; */
@@ -100,15 +138,17 @@
   }
 
   .brand-statement{
-    display:  block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30vw;
-    width: 50vw;
+    /* display:  inline-block; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* height: 30vw;
+    width: 50vw; */
+    margin: 5vw 5vw 5vw 5vw;
     text-align: left;
-    font-size: 2vw;
-    padding-left: 10vw;
-    padding-top: 10vw;
+    font-size: 1.5vw;
+    /* margin: 5vw 5vw 5vw 5vw; */
+    /* padding-left: 10vw;
+    padding-top: 10vw; */
   }
   
   a{
@@ -116,20 +156,100 @@
   }
 
   .resume{
-    font-size: 4vw;
+    font-size: 2vw;
   }
 
   /* Contact Section */
-  .contact-me{
+  /* .contact-me{
     width: 90vw;
     height: 40vw;
-  }
+  } */
 
-  .contact-img{
+  /* .contact-img{
     padding: 5vw 5vw 5vw 5vw;
+  } */
+
+  /* Projects */
+.project-page{
+  margin: 5vw 2vw 5vw 2vw;
+  
+}
+
+  .project-page-1{
+    column-count: 2;
+    text-align: left;
   }
 
-  /* Skills section */
+  .project-page-2{
+    column-count: 2;
+    text-align: left;
+  }
+
+  .img-div{
+    text-align: center;
+  }
+
+  .projects{
+    background-color: #fff;
+    padding: 4px;
+  }
+
+  .project-div{
+    display:block;
+    padding: 5vw 5vw 5vw 5vw;
+
+  }
+
+  a{
+    text-decoration: none;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  a:hover{
+    /* text-shadow: 2px 2px #48fb47;
+    transition: scale(2); */
+    background-color: white;
+    color: black;
+    /* transform: scale(5); 
+    transition: transform 0.5s linear; */
+
+  }
+  
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  /* skills page */
+  .skills-page{
+    margin: 5vw 2vw 5vw 2vw;
+    
+  }
+
+  .skills-container{
+    column-count: 2;
+    margin: 5vw 5vw 5vw 5vw;
+  }
+  .skills-logos-container{
+    /* column-span: all; */
+    display: inline-block;
+  }
+
+  .skills-description{
+    text-align: left;
+  }
+
+  .skills-logo{
+    padding: 1vw 1vw 1vw 1vw;
+  }
+
   .row-1{
     display: block;
   }
@@ -142,12 +262,29 @@
     display: block;
   }
 
-  /* Projects */
-  .project-div{
-    display:block;
-    padding: 10vw 10vw 10vw 10vw;
+  /* contact section */
 
+  .contact-me{
+    padding: 2vw 5vw 2vw 5vw;
   }
+
+  .contact-me-content{
+    padding: 2vw 5vw 2vw 5vw;
+  }
+
+  .contact-img{
+  padding: 5vw 5vw 5vw 5vw;
+  }
+
+  .contact-img:hover{
+    /* box-shadow: 0 12px 16px 0 white; */
+    /* transition: scale(3); */
+    /* background-color: #48fb47; */
+    transform:scale(0.5); 
+    transition: transform 0.5s linear;
+  }
+  
+  
 
 /* mobile tablet compatible. */
 @media (max-width:1024px){
@@ -186,7 +323,7 @@
   .contact-h1{
     font-size:5vw;
   }
-}
+} 
 
   @media (max-width:768px){
     .About{

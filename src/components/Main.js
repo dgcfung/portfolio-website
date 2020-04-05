@@ -10,10 +10,10 @@ function Main(){
 
         return(
             <Route>
-                <About/>
-                <Skills/>
-                <Resume/>
                 <Project/>
+                <Skills/>
+                <About/>
+                
                 <Contact/>
 
             </Route>
