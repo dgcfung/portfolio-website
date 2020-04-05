@@ -94,6 +94,9 @@
   .section-header{
     /* text-align: center; */
     font-size: 5vw;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
   }
 
   /* About Page */
@@ -208,18 +211,19 @@
   a:hover{
     /* text-shadow: 2px 2px #48fb47;
     transition: scale(2); */
-    /* background-color: white;
-    color: black; */
-    -webkit-animation: glow 0.1s ease-in-out infinite alternate;
-    -moz-animation: glow 0.1s ease-in-out infinite alternate;
-    animation: glow 0.1s ease-in-out infinite alternate;
+    background-color: white;
+    color: black;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  
     /* transform: scale(5); 
     transition: transform 0.5s linear; */
 
   }
   
 
-  @-webkit-keyframes a:hover {
+  @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
     }
