@@ -208,11 +208,11 @@
   a:hover{
     /* text-shadow: 2px 2px #48fb47;
     transition: scale(2); */
-    background-color: white;
-    color: black;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    /* background-color: white;
+    color: black; */
+    -webkit-animation: glow 0.1s ease-in-out infinite alternate;
+    -moz-animation: glow 0.1s ease-in-out infinite alternate;
+    animation: glow 0.1s ease-in-out infinite alternate;
     /* transform: scale(5); 
     transition: transform 0.5s linear; */
 
