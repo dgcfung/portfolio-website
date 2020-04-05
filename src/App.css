@@ -94,9 +94,9 @@
   .section-header{
     /* text-align: center; */
     font-size: 5vw;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
   }
 
   /* About Page */
@@ -213,9 +213,9 @@
     transition: scale(2); */
     background-color: white;
     color: black;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
   
     /* transform: scale(5); 
     transition: transform 0.5s linear; */
