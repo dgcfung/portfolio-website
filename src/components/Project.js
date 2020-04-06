@@ -1,6 +1,6 @@
 import React from 'react'
 import CurrencyExchange from '../images/CurrencyExchange.jpg'
-import DictionaryProject from '../images/DictionaryProject.jpg'
+import DictionaryProject from '../images/DictionaryProject2.png'
 import Megabus from '../images/MegaBusMobile.jpg'
 import BloggerProject from '../images/BloggerProject.jpg'
 
