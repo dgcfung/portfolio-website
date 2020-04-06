@@ -14,7 +14,7 @@ function Project(){
         <img className="projects" style={{height: "20vw", width: "20vw" }}src= {CurrencyExchange}/> 
         </div>
         <h3>Currency Exchange Rate</h3>
-        <p>Currency Exchange Rate app was designed to allow users a quick check of latest exchange rates. Latest news will also appear in the feed to give users a convenient way to keep up to date.</p>
+        <p>Currency Exchange Rate app was designed to allow users a quick check of latest exchange rates while viewing the latest news in a feed.</p>
         <h4>Languages:</h4>
         <p>HTML, CSS, Javascript</p>
         <a href="https://pages.git.generalassemb.ly/dgcfung/currency-exchange-rate/">Project Website</a>
