@@ -37,7 +37,7 @@ function Skills() {
                 <div className= "skills-description">
                     <p>My abilities as a software developer include front-end and backend skills. My project work includes work in JavaScript, HTML, CSS, and React, I've worked both individually and on collaborative teams using agile methodologies to design full-stack applications with backends in both Ruby on Rails and Express.</p>
                     <br></br>
-                    <a className= "resume" href= "https://www.docdroid.net/ZeLUMV1/donald-fung-pdf">Check Out Skills on My Resume</a>
+                    <a className= "resume" href= "https://docs.google.com/document/d/1HG2_km4R2EUw6wPIj3ZQhBNez5Va3GeimwmdEbkTewM/edit?usp=sharing">Check Out Skills on My Resume</a>
                 </div>
             </div>
         </div>
