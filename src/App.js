@@ -5,7 +5,7 @@ import Main from './components/Main'
 import Header from './components/Header'
 import About from './components/About'
 import Skills from './components/Skills'
-import Resume from './components/Resume'
+// import Resume from './components/Resume'
 import Project from './components/Project';
 import Contact from './components/Contact'
 
