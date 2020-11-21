@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b1ef8d08.chunk.css",
+    "main.js": "/static/js/main.1473a0bf.chunk.js",
+    "main.js.map": "/static/js/main.1473a0bf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.70b058cc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.70b058cc.js.map",
+    "static/js/2.caa40462.chunk.js": "/static/js/2.caa40462.chunk.js",
+    "static/js/2.caa40462.chunk.js.map": "/static/js/2.caa40462.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.83e5b4818a2f1a4467affd4d34dbe8bd.js": "/precache-manifest.83e5b4818a2f1a4467affd4d34dbe8bd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b1ef8d08.chunk.css.map": "/static/css/main.b1ef8d08.chunk.css.map",
+    "static/js/2.caa40462.chunk.js.LICENSE.txt": "/static/js/2.caa40462.chunk.js.LICENSE.txt",
+    "static/media/BloggerProject.jpg": "/static/media/BloggerProject.27b4d9df.jpg",
+    "static/media/CSSLogo.png": "/static/media/CSSLogo.0f02e132.png",
+    "static/media/CurrencyExchange.jpg": "/static/media/CurrencyExchange.33cf9cba.jpg",
+    "static/media/DictionaryProject2.png": "/static/media/DictionaryProject2.70bcc99d.png",
+    "static/media/DonaldProfilePic2.jpg": "/static/media/DonaldProfilePic2.a7035066.jpg",
+    "static/media/EmailLogo.png": "/static/media/EmailLogo.61b2ad5f.png",
+    "static/media/ExpressLogo.png": "/static/media/ExpressLogo.98ff4822.png",
+    "static/media/GitHubLogo.png": "/static/media/GitHubLogo.d19bbdb4.png",
+    "static/media/HTMLLogo2.png": "/static/media/HTMLLogo2.456f9ad7.png",
+    "static/media/JSLogo.jpg": "/static/media/JSLogo.fc66ffc4.jpg",
+    "static/media/MegaBusMobile.jpg": "/static/media/MegaBusMobile.849d9faf.jpg",
+    "static/media/NodeLogo.png": "/static/media/NodeLogo.60065f05.png",
+    "static/media/PostgreSQLLogo.png": "/static/media/PostgreSQLLogo.8e4e44c5.png",
+    "static/media/RailsLogo.png": "/static/media/RailsLogo.5e72d705.png",
+    "static/media/RubyLogo.png": "/static/media/RubyLogo.6a43c490.png",
+    "static/media/SequelizeLogo.png": "/static/media/SequelizeLogo.2019a332.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70b058cc.js",
+    "static/js/2.caa40462.chunk.js",
+    "static/css/main.b1ef8d08.chunk.css",
+    "static/js/main.1473a0bf.chunk.js"
+  ]
+}
